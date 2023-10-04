@@ -438,7 +438,10 @@
     top: -13px;
     left: 119px;
 }
-
+.sec-last-banner-carosal-img{
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 
 
@@ -555,7 +558,4 @@
     .nav-item {
         padding: 0%;
     }
-}
-.sec-last-banner-carosal-img{
-    border-radius: 12px;
 }

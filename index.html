@@ -468,19 +468,19 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
+                        <div class="swiper myownSwiper">
+                            <div class="swiper-wrapper mx-4">
+                                <div class="swiper-slide mx-3">
                                     <div class="sec-last-banner-carosal">
                                         <img class="sec-last-banner-carosal-img" src="content/sec-last-carosal.jpg" alt="">
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide mx-3">
                                     <div class="sec-last-banner-carosal">
                                         <img class="sec-last-banner-carosal-img" src="content/sec-last-carosal (1).jpg" alt="">
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide mx-3">
                                     <div class="sec-last-banner-carosal">
                                         <img class="sec-last-banner-carosal-img" src="content/sec-last-carosal (2).jpg">
                                     </div>
@@ -504,6 +504,34 @@
 
     <!-- Initialize Swiper -->
     <script>
+
+        var swiper = new Swiper(".myownSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 60,
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 50,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 50,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+
 
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
