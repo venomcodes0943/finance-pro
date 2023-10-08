@@ -102,7 +102,7 @@
                 </nav>
             </section>
         </section>
-        <section class="header-heading mt-4 ms-4 pos">
+        <section class="header-heading my-5 mt-4 ms-4 pos">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-12" id="header-col-first">
@@ -125,10 +125,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="header-images">
-
-                        </div>
+                    <div class="col-lg-6 col-md-12 position-relative">
+                        <!-- <div class="header-images">
+                            <img src="content/Group-333.svg" alt="" class="owl-shade-first" data-aos="zoom-out-up"
+                                data-aos-delay="1200">
+                            <img src="content/first.png" alt="" class="first-img py-5" data-aos="zoom-in-up"
+                                data-aos-delay="1500">
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -455,7 +458,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8" data-aos="fade-left">
+                    <div class="col-lg-8" data-aos="fade-down">
                         <div class="swiper myownSwiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide ">
@@ -529,101 +532,126 @@
         </section>
     </div>
 
-    <div class="container-fluid">
-        <div class="map-form py-5 mx-5">
-            <div class="form-with-map p-4 rounded">
-                <div class="form-to-add">
-                    <div class="p-5 display-5 fw-bolder text-light">
-                        Request For Quote
-                    </div>
-                    <div class="ms-5 form-para">
-                        A wonderful serenity has taken possession of my entire soul
-                    </div>
-                    <form action="" method="post">
-                        <div class="container m-4">
-                            <div class="row">
-                                <div class="col">
-                                    <input placeholder="How To Assits You" type="text" name="text" class="input">
-                                </div>
+    <div class="container-fluid my-5 ">
+        <div class="row mx-2 map-for-sys">
+            <div class="col-lg-6 col-md-12 p-0">
+                <div class="mapping-sys">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d96634.570714699!2d-73.888649!3d40.809722!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f4e239f268d7%3A0xb42a5375461a544d!2sSoundview%20Park!5e0!3m2!1sen!2sus!4v1696759721015!5m2!1sen!2sus"
+                        class="mapp" width="100%" height="550px" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 map-form-sys">
+                <div class="forming-sys  d-flex flex-column">
+                    <div class="ms-4">
+                        <div class="display-5 text-light fw-bold mt-5">
+                            Request For Quote
+                        </div>
+                        <div class="form-para my-2">
+                            A wonderful serenity has taken possession of my entire soul
+                        </div>
+                        <div class="form-now mt-5">
+                            <div class="intro-form fw-bold fs-4" style="color: #bcc0d2;">
+                                I would like to discuss:
                             </div>
                         </div>
+                    </div>
+                    <form class="form m-3">
+                    </div>
+                        <input type="text" class="form-inp" placeholder="How To Assits You">
+                        <input type="text" class="form-inp" placeholder="Your Name"><br>
+                        <input type="text" class="form-inp" placeholder="Phone Number">    
+                        <button class="btn btn-danger form-btn fs-5 py-2 px-4 my-3">SUBMIT REQUEST</button>
                     </form>
                 </div>
             </div>
         </div>
-        <script src="script.js"></script>
-        <!-- Swiper JS -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-        <!-- Initialize Swiper -->
-        <script>
-            var swiper = new Swiper(".myownSwiper", {
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".myownSwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
                 },
-                breakpoints: {
-                    320: {
-                        slidesPerView: 1,
-                        spaceBetween: 20,
-                    },
-                    640: {
-                        slidesPerView: 2,
-                        spaceBetween: 10,
-                    },
-                    768: {
-                        slidesPerView: 2,
-                        spaceBetween: 10,
-                    },
-                    1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 10,
-                    },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
                 },
-            });
-
-
-            var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
                 },
-                breakpoints: {
-
-                    320: {
-                        slidesPerView: 1,
-                        spaceBetween: 20,
-                    },
-                    640: {
-                        slidesPerView: 2,
-                        spaceBetween: 10,
-                    },
-                    768: {
-                        slidesPerView: 2,
-                        spaceBetween: 40,
-                    },
-                    1024: {
-                        slidesPerView: 3,
-                    },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
                 },
-            });
-        </script>
+            },
+        });
 
-        <!-- JAVASCRIPT AOS  -->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init({
-                duration: 1000,
-                delay: 1,
-                once: true,
-            });
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
-        <!-- <script src="js/bootstrap.js"></script>
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+
+    <!-- JAVASCRIPT AOS  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            delay: 1,
+            once: true,
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script> -->
 </body>
