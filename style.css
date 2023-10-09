@@ -549,6 +549,84 @@
     border-radius: 15px;
     margin-left: 15px;
 }
+.footer-banner-heading::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 40px;
+    background-color: #e52c48;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.footer-banner-heading{
+    color: #e52c48;
+    font-weight: 900;
+}
+.footer-banner-img-part{
+    background-image: url(content/welcome-video-part.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover; 
+    border-radius: 15px;
+}
+.footer-banner-img-part2{
+    background-image: url(content/sec-carosal-3.jpg);
+    height: 400px;
+    background-position: center; 
+    background-size: cover;
+    border-radius: 15px;
+}
+.footer-ul{
+    list-style: none;
+}
+.main-footer{
+    background-color: #051246;
+}
+.footer-ancor{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-ancor:hover{
+    color: #e52c48;
+    transition: all 0.4s;
+}
+.footer-form{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+.footer-form-input{
+    background-color: #0a347e;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    color: #fff;
+}
+.main-footer-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
+.footer-form-input::placeholder{
+    color: #b1b1b1;
+}
+.footer-para-last{
+    color: #949494;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -582,6 +660,11 @@
         /* width: 100%; */
         text-align: center;
         align-items: center;
+    }
+    .footer-banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
@@ -643,6 +726,12 @@
         left: 70px;
         bottom: 20px;
     }
+    .main-footer-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    } 
 }
 
 
@@ -659,6 +748,11 @@
     }
     .form-btn{
         margin: 0px;
+    }
+    .footer-banner{
+        display: flex;
+        align-items: first baseline;
+        justify-content:first baseline;
     }
 }
 
