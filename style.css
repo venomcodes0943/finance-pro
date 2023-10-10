@@ -615,7 +615,16 @@
 .footer-para-last{
     color: #949494;
 }
-
+.copyrights-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.cimg{
+    margin: 10px;
+    padding: 20px;
+}
 
 
 
